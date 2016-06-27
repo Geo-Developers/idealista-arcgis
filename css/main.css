@@ -58,6 +58,7 @@ h1{
   margin-right: 2%;
   margin-bottom: 10px;
   width: 18.4%;
+  min-height: 150px;
 }
 #results li:nth-child(5n){
   margin-right: 0;

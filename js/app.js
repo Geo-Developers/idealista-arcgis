@@ -36,7 +36,7 @@ angular.module('idealista-arcgis', ['esri.map', 'ngSanitize', 'ngLodash'])
       noSmokers: true,
       sex: "X",
       operation: "A",
-      order: "price",
+      //order: "price",
       pictures: true,
       propertyType: "bedrooms",
       pets: "false"
@@ -199,7 +199,7 @@ angular.module('idealista-arcgis', ['esri.map', 'ngSanitize', 'ngLodash'])
     $GEO.params.noSmokers = $scope.idealista.noSmokers;
     $GEO.params.sex = $scope.idealista.sex;
     $GEO.params.operation = $scope.idealista.operation;
-    $GEO.params.order = $scope.idealista.order;
+    //$GEO.params.order = $scope.idealista.order;
     $GEO.params.pictures = $scope.idealista.pictures;
     $GEO.params.propertyType = $scope.idealista.propertyType;
 
